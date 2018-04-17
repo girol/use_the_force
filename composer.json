@@ -1,0 +1,26 @@
+{
+    "name": "uspdev/the_force",
+    "description": "Shows the power of The Force",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "André Luiz Girol",
+            "email": "andregirol@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Uspdev\\RebelAlliance\\" : "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Uspdev\\RebelAlliance\\JediServiceProvider"
+          ]
+        }
+    }
+}
